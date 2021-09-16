@@ -29,7 +29,7 @@ const showTime = () => {
     setTimeout(showTime, 1000);
 }
 
-// add zeros
+//add zeros
 const addZero = (n) => {
     return (parseInt(n, 10) < 10 ? '0' : '') + n;
 }
